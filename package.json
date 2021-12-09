@@ -1,0 +1,31 @@
+{
+  "name": "paginatrialgames-vassallo-copia",
+  "version": "1.0.0",
+  "description": "Pre entrega final Pafinas funcionales: index y contacto. # PaginaDeJuegos-Vassallo Aplique bootstrap en el header y en el footer creando la nav y el icono para responsive. https://svassallo4.github.io/PaginaDeJuegosBotstrap-Vassallo/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss styles/scss/styles.scss styles/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+   
+    
+    
+   
+    
+   
+  },
+  "repository": {
+    
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Svassallo4/PaginaTrialGames-Vassallo/issues"
+  },
+  "homepage": "https://github.com/Svassallo4/PaginaTrialGames-Vassallo#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
